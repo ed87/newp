@@ -96,6 +96,7 @@ label .req {
     color: #1ab188;
 }
 
+
 label.active {
     transform: translateY(50px);
     left: 2px;
