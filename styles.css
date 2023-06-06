@@ -8,9 +8,12 @@
 
 body {
    overflow-x: hidden;
-  
+   width: 100vw;  
+   height: 100%;
    
+
 }
+
 .background{
    background-image: url('photo.jpg');
    background-size: cover;
@@ -71,11 +74,8 @@ header {
    display: none;
    flex-direction: column;
 }
-nav{
-   float: left;
-   
 
-}
+
 
 nav .hamb span {
    background: whitesmoke;
@@ -206,8 +206,17 @@ span{
    font-size: 15px;
 }
 
-
+.containHeader {
+   height: 150px;
+}
 @media screen and (max-width: 930px) {
+   
+   .nav-list {
+         position: absolute;
+         right: 20px;
+         top:0px;
+         background-color: black;
+      }
    nav .hamb{
       display: inline-block;
    }
@@ -263,6 +272,7 @@ span{
     }
    nav .nav-list li{
      display: block; 
+     margin: 10px;
    }
    nav .nav-list li a{
      display: block;
