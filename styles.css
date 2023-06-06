@@ -14,6 +14,7 @@ body {
 .background{
    background-image: url('photo.jpg');
    background-size: cover;
+   background-position: center;
 }
 .form{
    margin: 0 auto;
@@ -70,6 +71,11 @@ header {
    display: none;
    flex-direction: column;
 }
+nav{
+   float: left;
+   
+
+}
 
 nav .hamb span {
    background: whitesmoke;
@@ -108,7 +114,7 @@ nav .nav-list li:not(:last-child) a:hover {
 }
 
 nav .nav-list li.btn a {
-   display: inline-block;
+   /* display: inline-block; */
    background: transparent;
    border: 2px solid #2ecc71;
    padding: 9px 28px;
@@ -242,7 +248,6 @@ span{
       transition: .3s right;
       border-radius: 10px;
       display: none; */
-
       list-style: none;
       padding: 0;
       margin-top: 60px;
@@ -254,6 +259,7 @@ span{
    }
    .menu-icon:checked ~ .nav-list {
       display: block;
+      
     }
    nav .nav-list li{
      display: block; 
@@ -266,12 +272,12 @@ span{
      margin-left: 0;
      margin-bottom: 30px;
    }
-   nav .nav-list li.btn a {
+   /* nav .nav-list li.btn a {
       position: absolute;
       bottom: 0%;
       right: 20%;
       left: 20px;
       padding: 7px 15px;
       font-size: 14px;
-   }
+   } */
 }
